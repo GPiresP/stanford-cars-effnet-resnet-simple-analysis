@@ -1,0 +1,25 @@
+# Environment
+venv/
+.env
+
+# Datasets
+data/
+
+# Model Weights
+*.pth
+models/**/*.pth
+
+# Large Binaries
+*.whl
+
+# LaTeX Build Files (leaving only .tex, .pdf, and images)
+*.aux
+*.log
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.gz
+
+# Jupyter/Python Cache
+__pycache__/
+.ipynb_checkpoints/
